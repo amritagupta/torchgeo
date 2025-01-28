@@ -66,6 +66,12 @@ from .idtrees import IDTReeS
 from .inaturalist import INaturalist
 from .inria import InriaAerialImageLabeling
 from .iobench import IOBench
+from .kakuma_aerial import (
+    KakumaAerialBase,
+    KakumaAerialRoofClassification,
+    KakumaAerialSegmentation,
+    KakumaAerialToiletClassification,
+)
 from .l7irish import L7Irish
 from .l8biome import L8Biome
 from .landcoverai import LandCoverAI, LandCoverAI100, LandCoverAIBase, LandCoverAIGeo
@@ -224,6 +230,10 @@ __all__ = (
     'IOBench',
     'InriaAerialImageLabeling',
     'IntersectionDataset',
+    'KakumaAerialBase',
+    'KakumaAerialRoofClassification',
+    'KakumaAerialSegmentation',
+    'KakumaAerialToiletClassification',
     'L7Irish',
     'L8Biome',
     'LEVIRCDBase',
